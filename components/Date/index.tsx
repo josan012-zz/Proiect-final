@@ -1,12 +1,12 @@
 import Style from "./styled";
-
+import { Button } from "@mui/material";
 const Date = () => {
   return (
     <Style>
       <div className="center">
-        <div className="albastru">
-          <div className="numere">
-            <div className="numar-unu">
+        <div className="blue">
+          <div className="numbers">
+            <div className="number-one">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="80"
@@ -25,9 +25,9 @@ const Date = () => {
                 />
               </svg>
               <p className="bold">$30B</p>
-              <p className="descriere">Digital Currency Exchanged</p>
+              <p className="description">Digital Currency Exchanged</p>
             </div>
-            <div className="numar-doi">
+            <div className="number-two">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="80"
@@ -42,9 +42,9 @@ const Date = () => {
                 />
               </svg>
               <p className="bold">10M+</p>
-              <p className="descriere">Trusted Wallets Investor</p>
+              <p className="description">Trusted Wallets Investor</p>
             </div>
-            <div className="numar-trei">
+            <div className="number-three">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="80"
@@ -59,11 +59,11 @@ const Date = () => {
                 />
               </svg>
               <p className="bold">195</p>
-              <p className="descriere">Countries Supported</p>
+              <p className="description">Countries Supported</p>
             </div>
           </div>
-          <div className="bloc-pagina2">
-            <div className="imagine-pagina2">
+          <div className="block-page2">
+            <div className="photo-page2">
               <svg
                 width="650"
                 height="473"
@@ -3144,13 +3144,13 @@ const Date = () => {
                 </defs>
               </svg>
             </div>
-            <div className="informartii">
-              <p id="titlu">Why you should choose CRAPPO</p>
+            <div className="info">
+              <p id="title">Why you should choose CRAPPO</p>
               <p id="experience">
                 Experience the next generation cryptocurrency platform. No
                 financial borders, extra fees, and fake reviews.
               </p>
-              <button id="more">Learn More</button>
+              <Button id="more">Learn More</Button>
             </div>
           </div>
         </div>

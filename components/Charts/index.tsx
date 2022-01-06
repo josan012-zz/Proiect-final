@@ -1,24 +1,26 @@
 import Style from "./styled";
+import { Button } from "@mui/material";
 
 const Charts = () => {
   return (
     <Style>
       <div className="center">
-        <div className="violet">
+        <div className="purple">
           <p id="market">
             Market sentiments, portfolio, and run the infrastructure of your
             choice
           </p>
           <div className="schema">
-            <div className="stanga">
+            <div className="left">
               <p id="invest">Invest Smart</p>
-              <p id="statistica">
+              <p id="statistics">
                 Get full statistic information about the behaviour of buyers and
                 sellers will help you to make the decision.
               </p>
-              <input type="button" value="Learn more" id="learn" />
+
+              <Button id="learn">Learn More</Button>
             </div>
-            <div className="dreapta">
+            <div className="right">
               <svg
                 id="chart"
                 xmlns="http://www.w3.org/2000/svg"
@@ -199,8 +201,8 @@ const Charts = () => {
               </svg>
             </div>
           </div>
-          <div className="diagrama">
-            <div className="diagrama-stanga">
+          <div className="diagram">
+            <div className="diagram-left">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -991,25 +993,27 @@ const Charts = () => {
                 </defs>
               </svg>
             </div>
-            <div className="diagrama-dreapta">
+            <div className="diagram-right">
               <p id="detail">Detailed Statistics</p>
               <p id="mine">
                 View all mining related information in realtime, at any point at
                 any location and decide which polls you want to mine in.
               </p>
-              <input type="button" value="Learn more" id="learn-more" />
+
+              <Button id="learn-more">Learn More</Button>
             </div>
           </div>
-          <div className="clasament">
-            <div className="clasament-stanga">
+          <div className="podium">
+            <div className="podium-left">
               <p id="grow">Grow your profit and track your investments</p>
               <p id="tool">
                 Use advanced analytical tools. Clear TradingView charts let you
                 track current and historical profit investments.
               </p>
-              <input type="button" value="Learn more" id="learn" />
+
+              <Button id="learn">Learn More</Button>
             </div>
-            <div className="clasament-dreapta">
+            <div className="podium-right">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="770"

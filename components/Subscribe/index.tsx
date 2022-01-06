@@ -1,25 +1,25 @@
 import Style from "./styled";
-
+import { Button } from "@mui/material";
 const Subscribe = () => {
   return (
     <Style>
       <div className="center">
         <div className="gradient">
           <div className="email">
-            <div className="email-stanga">
-              <p id="acum">Start mining now</p>
+            <div className="email-left">
+              <p id="now">Start mining now</p>
               <p id="join">
                 Join now with CRAPPO to get the latest news and start mining now
               </p>
             </div>
-            <div className="email-dreapta">
+            <div className="email-right">
               <input
                 type="email"
                 name="email"
                 id="email"
                 placeholder="Enter your email"
               />
-              <input type="button" value="Subscribe" id="subscribe" />
+              <Button id="subscribe">Subscribe</Button>
             </div>
           </div>
         </div>

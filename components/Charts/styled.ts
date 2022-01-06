@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { theme } from "../../pages/theme";
 
 export const Style = styled.div`
   .center {
@@ -6,17 +7,67 @@ export const Style = styled.div`
     justify-content: center;
   }
 
-  .albastru {
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: capitalize;
+    min-width: 64px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #1976d2;
+  }
+  .blue {
     background-color: #0d0d2b;
     width: 100%;
     height: 850px;
   }
-
   .logo {
     margin-top: 67px;
     margin-left: 88px;
   }
-
   .links {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
@@ -24,7 +75,6 @@ export const Style = styled.div`
     margin-top: -39px;
     justify-content: center;
   }
-
   .link {
     font-family: Rubik;
     font-style: normal;
@@ -34,16 +84,14 @@ export const Style = styled.div`
     letter-spacing: 0.01em;
     color: #ffffff;
   }
-
-  .logare {
+  .log {
     width: 221px;
     display: flex;
     align-self: center;
     margin-left: 1072px;
     margin-top: -40px;
   }
-
-  #registrare {
+  #registration {
     width: 130px;
     height: 52px;
     background: #3671e9;
@@ -58,29 +106,24 @@ export const Style = styled.div`
     letter-spacing: 0.01em;
     color: #ffffff;
   }
-
-  .inregistrare {
+  .register {
     display: flex;
     justify-content: flex-end;
     margin-left: 48px;
   }
-
   .login {
     display: flex;
     align-items: center;
   }
-
-  .bloc {
+  .block {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  .imagine {
+  .photo {
     margin-top: 51px;
     margin-left: -3px;
   }
-
-  .sur {
+  .grey {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 32px;
     width: 365px;
@@ -92,7 +135,6 @@ export const Style = styled.div`
     margin-top: 130px;
     margin-left: 90px;
   }
-
   .save {
     background: #ffffff;
     border-radius: 32px;
@@ -109,7 +151,6 @@ export const Style = styled.div`
     text-transform: uppercase;
     color: #0d0d2b;
   }
-
   #weekend {
     font-family: Rubik;
     font-style: normal;
@@ -121,7 +162,6 @@ export const Style = styled.div`
     margin-top: 2px;
     margin-left: 2px;
   }
-
   #fast {
     font-family: Rubik;
     font-style: normal;
@@ -132,7 +172,6 @@ export const Style = styled.div`
     margin-top: 9px;
     margin-left: 86px;
   }
-
   #buy {
     font-family: Rubik;
     font-style: normal;
@@ -144,7 +183,6 @@ export const Style = styled.div`
     margin-top: -31px;
     margin-left: 87px;
   }
-
   #try {
     background: #3671e9;
     border-radius: 32px;
@@ -155,14 +193,12 @@ export const Style = styled.div`
     margin-top: 22px;
     margin-left: 81px;
   }
-
-  .numere {
+  .numbers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 151px;
     margin-top: 130px;
   }
-
   .bold {
     font-family: Rubik;
     font-style: normal;
@@ -173,8 +209,7 @@ export const Style = styled.div`
     margin-top: -85px;
     margin-left: 100px;
   }
-
-  .descriere {
+  .description {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -185,17 +220,14 @@ export const Style = styled.div`
     margin-top: -39px;
     margin-left: 100px;
   }
-
-  .bloc-pagina2 {
+  .block-page2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  .imagine-pagina2 {
+  .photo-page2 {
     margin-left: 71px;
   }
-
-  #titlu {
+  #title {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -204,7 +236,6 @@ export const Style = styled.div`
     color: #ffffff;
     margin-left: 88px;
   }
-
   #experience {
     font-family: Rubik;
     font-style: normal;
@@ -217,7 +248,6 @@ export const Style = styled.div`
     height: 83.96px;
     margin-left: 88px;
   }
-
   #more {
     background: #3671e9;
     border-radius: 32px;
@@ -234,7 +264,6 @@ export const Style = styled.div`
     color: #ffffff;
     margin-left: 88px;
   }
-
   #earn {
     color: #ffffff;
     font-family: Rubik;
@@ -244,7 +273,6 @@ export const Style = styled.div`
     line-height: 150%;
     text-align: center;
   }
-
   #check {
     font-family: Rubik;
     font-style: normal;
@@ -254,13 +282,11 @@ export const Style = styled.div`
     color: #e0e0e0;
     text-align: center;
   }
-
-  .albastru-scurt {
+  .blue-short {
     background-color: #0d0d2b;
     width: 100%;
     height: 457px;
   }
-
   .calculator {
     background: #fbfcfe;
     border-radius: 16px 16px 0px 0px;
@@ -269,7 +295,6 @@ export const Style = styled.div`
     margin-top: 108px;
     margin-left: 217px;
   }
-
   #enter {
     width: 403px;
     height: 38px;
@@ -277,7 +302,6 @@ export const Style = styled.div`
     margin-left: 48px;
     display: inline;
   }
-
   ::placeholder {
     font-family: Rubik;
     font-style: normal;
@@ -286,7 +310,6 @@ export const Style = styled.div`
     line-height: 150%;
     color: #0d0d2b;
   }
-
   input {
     font-family: Rubik;
     font-style: normal;
@@ -295,7 +318,6 @@ export const Style = styled.div`
     line-height: 150%;
     color: #0d0d2b;
   }
-
   select {
     width: 200px;
     height: 38px;
@@ -309,7 +331,6 @@ export const Style = styled.div`
     display: inline;
     margin-left: 48px;
   }
-
   #calculate {
     background: #3671e9;
     border-radius: 32px;
@@ -325,18 +346,14 @@ export const Style = styled.div`
     line-height: 150%;
     margin-left: 48px;
   }
-
   #contact {
     margin-left: -22px;
   }
-
-  .alb {
+  .white {
     height: 1033px;
     width: 100%;
-    background-color: #d6d0d0;
   }
-
-  .afisare {
+  .show {
     height: 216px;
     width: 942px;
     background: #fbfcfe;
@@ -344,7 +361,6 @@ export const Style = styled.div`
     margin-left: 217px;
     margin-top: -47px;
   }
-
   #estimate {
     color: #3671e9;
     font-family: Rubik;
@@ -357,8 +373,7 @@ export const Style = styled.div`
     margin-top: 45px;
     margin-left: 48px;
   }
-
-  #numar {
+  #number {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -368,11 +383,9 @@ export const Style = styled.div`
     color: #0d0d2b;
     margin-left: 48px;
   }
-
   span {
     color: #3671e9;
   }
-
   #revenue {
     font-family: Rubik;
     font-style: normal;
@@ -383,7 +396,6 @@ export const Style = styled.div`
     color: #828282;
     margin-left: 48px;
   }
-
   #trade {
     font-family: Rubik;
     font-style: normal;
@@ -396,20 +408,17 @@ export const Style = styled.div`
     height: 120px;
     margin-left: 306px;
   }
-
-  .monede {
+  .coins {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
   #bit,
-  #moneda-ethereum,
+  #coin-ethereum,
   #lite {
     margin-left: 187px;
     margin-top: 100px;
   }
-
-  #moneda-bitcoin {
+  #coin-bitcoin {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -419,7 +428,6 @@ export const Style = styled.div`
     display: grid;
     justify-content: center;
   }
-
   #span {
     font-family: Rubik;
     font-style: normal;
@@ -432,8 +440,7 @@ export const Style = styled.div`
     margin-left: 110px;
     margin-top: -42px;
   }
-
-  #descriere-bitcoin {
+  #description-bitcoin {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -448,24 +455,20 @@ export const Style = styled.div`
     justify-content: center;
     margin-left: 58px;
   }
-
   #arrow-bitcoin {
     margin-left: 185px;
     cursor: pointer;
     z-index: 1;
   }
-
   #buton-bitcoin {
     display: none;
     margin-top: -69px;
     margin-left: 113px;
   }
-
   #arrow-bitcoin:hover + #buton-bitcoin {
     display: block;
     z-index: 2;
   }
-
   .bitcoin:hover,
   .ethereum:hover,
   .litecoin:hover {
@@ -473,13 +476,11 @@ export const Style = styled.div`
     backdrop-filter: blur(250px);
     border-radius: 16px;
   }
-
   .bitcoin,
   .ethereum,
   .litecoin {
     height: 500px;
   }
-
   #span-ethereum {
     font-family: Rubik;
     font-style: normal;
@@ -492,7 +493,6 @@ export const Style = styled.div`
     margin-left: 153px;
     margin-top: -42px;
   }
-
   #span-litecoin {
     font-family: Rubik;
     font-style: normal;
@@ -505,13 +505,11 @@ export const Style = styled.div`
     margin-left: 127px;
     margin-top: -42px;
   }
-
-  .violet {
-    background: #2b076e;
+  .purple {
     width: 100%;
     height: 1874px;
+    background-color: ${theme.palette.secondary.main};
   }
-
   #market {
     font-family: Rubik;
     font-style: normal;
@@ -525,12 +523,10 @@ export const Style = styled.div`
     margin-left: 259px;
     margin-top: 100px;
   }
-
   .schema {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
   #invest {
     font-family: Rubik;
     font-style: normal;
@@ -541,8 +537,7 @@ export const Style = styled.div`
     margin-top: 140px;
     margin-left: 120px;
   }
-
-  #statistica {
+  #statistics {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -555,7 +550,6 @@ export const Style = styled.div`
     margin-top: 24px;
     margin-left: 120px;
   }
-
   #learn {
     background: #3671e9;
     border-radius: 32px;
@@ -572,17 +566,14 @@ export const Style = styled.div`
     margin-top: 32px;
     margin-left: 120px;
   }
-
   #chart {
     margin-top: 100px;
   }
-
-  .diagrama {
+  .diagram {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 120px;
   }
-
   #detail {
     font-family: Rubik;
     font-style: normal;
@@ -593,7 +584,6 @@ export const Style = styled.div`
     margin-top: 105px;
     margin-left: 91px;
   }
-
   #mine {
     font-family: Rubik;
     font-style: normal;
@@ -607,7 +597,6 @@ export const Style = styled.div`
     margin-top: 24px;
     margin-left: 91px;
   }
-
   #learn-more {
     background: #3671e9;
     border-radius: 32px;
@@ -624,7 +613,6 @@ export const Style = styled.div`
     margin-top: 32px;
     margin-left: 91px;
   }
-
   #grow {
     font-family: Rubik;
     font-style: normal;
@@ -636,13 +624,11 @@ export const Style = styled.div`
     height: 96px;
     margin-left: 120px;
   }
-
-  .clasament {
+  .podium {
     margin-top: 130px;
     display: grid;
     grid-template-columns: 574px 1fr;
   }
-
   #tool {
     font-family: Rubik;
     font-style: normal;
@@ -656,13 +642,11 @@ export const Style = styled.div`
     margin-top: 24px;
     margin-left: 120px;
   }
-
   .gradient {
     background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
     height: 392px;
     width: 100%;
   }
-
   .email {
     background: #3671e9;
     border-radius: 16px;
@@ -673,8 +657,7 @@ export const Style = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  #acum {
+  #now {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -684,7 +667,6 @@ export const Style = styled.div`
     margin-top: 48px;
     margin-left: 48px;
   }
-
   #join {
     font-family: Rubik;
     font-style: normal;
@@ -698,7 +680,6 @@ export const Style = styled.div`
     margin-top: 16px;
     margin-left: 48px;
   }
-
   #email {
     width: 374px;
     height: 35px;
@@ -708,7 +689,6 @@ export const Style = styled.div`
     display: inline;
     margin-top: 82px;
   }
-
   #email::placeholder {
     font-family: Rubik;
     font-style: normal;
@@ -718,7 +698,6 @@ export const Style = styled.div`
     letter-spacing: 0.01em;
     color: #ffffff;
   }
-
   #subscribe {
     background: #ffffff;
     border-radius: 32px;
@@ -735,7 +714,6 @@ export const Style = styled.div`
     color: #0d0d2b;
     margin-left: 40px;
   }
-
   .footer {
     background: #0d0d2b;
     width: 1440px;
@@ -743,12 +721,10 @@ export const Style = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 500px;
   }
-
   #logo-final {
     margin-top: 80px;
     margin-left: 120px;
   }
-
   #quick {
     font-family: Rubik;
     font-style: normal;
@@ -760,7 +736,6 @@ export const Style = styled.div`
     margin-left: 70px;
     margin-bottom: 24px;
   }
-
   .list {
     display: block;
     margin-left: 70px;
@@ -772,7 +747,6 @@ export const Style = styled.div`
     line-height: 38px;
     color: #f2f2f2;
   }
-
   #payment {
     font-family: Rubik;
     font-style: normal;
@@ -785,20 +759,16 @@ export const Style = styled.div`
     margin-left: 98px;
     margin-top: 80px;
   }
-
-  .plata {
+  .pay {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
-
-  #plata-visa {
+  #pay-visa {
     margin-left: 100px;
   }
-
-  #plata-mastercard {
+  #pay-mastercard {
     margin-left: 27px;
   }
-
   .facebook,
   .instagram,
   .youtube,
@@ -807,7 +777,6 @@ export const Style = styled.div`
     display: inline;
     margin-left: 20px;
   }
-
   .social {
     height: 60px;
     width: 400px;

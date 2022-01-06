@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { theme } from "../../pages/theme";
 
 export const Style = styled.div`
   .center {
@@ -6,9 +7,8 @@ export const Style = styled.div`
     justify-content: center;
   }
 
-  .albastru {
-    background-color: #0d0d2b;
-    width: 100%;
+  .blue {
+    width: 1440px;
     height: 850px;
   }
 
@@ -35,7 +35,7 @@ export const Style = styled.div`
     color: #ffffff;
   }
 
-  .logare {
+  .log {
     width: 221px;
     display: flex;
     align-self: center;
@@ -43,7 +43,7 @@ export const Style = styled.div`
     margin-top: -40px;
   }
 
-  #registrare {
+  #registration {
     width: 130px;
     height: 52px;
     background: #3671e9;
@@ -59,7 +59,7 @@ export const Style = styled.div`
     color: #ffffff;
   }
 
-  .inregistrare {
+  .register {
     display: flex;
     justify-content: flex-end;
     margin-left: 48px;
@@ -70,17 +70,17 @@ export const Style = styled.div`
     align-items: center;
   }
 
-  .bloc {
+  .block {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .imagine {
+  .photo {
     margin-top: 51px;
     margin-left: -3px;
   }
 
-  .sur {
+  .grey {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 32px;
     width: 365px;
@@ -156,7 +156,7 @@ export const Style = styled.div`
     margin-left: 81px;
   }
 
-  .numere {
+  .numbers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 151px;
@@ -174,7 +174,63 @@ export const Style = styled.div`
     margin-left: 100px;
   }
 
-  .descriere {
+  .css-sghohy-MuiButtonBase-root-MuiButton-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    text-transform: capitalize;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #1976d2;
+    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+      0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  }
+
+  .description {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -186,16 +242,16 @@ export const Style = styled.div`
     margin-left: 100px;
   }
 
-  .bloc-pagina2 {
+  .block-page2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .imagine-pagina2 {
+  .photo-page2 {
     margin-left: 71px;
   }
 
-  #titlu {
+  #title {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -255,9 +311,9 @@ export const Style = styled.div`
     text-align: center;
   }
 
-  .albastru-scurt {
-    background-color: #0d0d2b;
-    width: 100%;
+  .blue-short {
+    background-color: ${theme.palette.primary.main};
+    width: 1440px;
     height: 457px;
   }
 
@@ -316,7 +372,6 @@ export const Style = styled.div`
     width: 147px;
     height: 59px;
     border: 0;
-    cursor: pointer;
     color: #ffffff;
     font-family: Rubik;
     font-style: normal;
@@ -330,13 +385,12 @@ export const Style = styled.div`
     margin-left: -22px;
   }
 
-  .alb {
+  .white {
     height: 1033px;
-    width: 100%;
-    background-color: #d6d0d0;
+    width: 1440px;
   }
 
-  .afisare {
+  .show {
     height: 216px;
     width: 942px;
     background: #fbfcfe;
@@ -358,7 +412,7 @@ export const Style = styled.div`
     margin-left: 48px;
   }
 
-  #numar {
+  #number {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -397,19 +451,19 @@ export const Style = styled.div`
     margin-left: 306px;
   }
 
-  .monede {
+  .coins {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   #bit,
-  #moneda-ethereum,
+  #coin-ethereum,
   #lite {
     margin-left: 187px;
     margin-top: 100px;
   }
 
-  #moneda-bitcoin {
+  #coin-bitcoin {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -433,7 +487,7 @@ export const Style = styled.div`
     margin-top: -42px;
   }
 
-  #descriere-bitcoin {
+  #description-bitcoin {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -506,9 +560,9 @@ export const Style = styled.div`
     margin-top: -42px;
   }
 
-  .violet {
+  .purple {
     background: #2b076e;
-    width: 100%;
+    width: 1440px !important;
     height: 1874px;
   }
 
@@ -542,7 +596,7 @@ export const Style = styled.div`
     margin-left: 120px;
   }
 
-  #statistica {
+  #statistics {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -577,7 +631,7 @@ export const Style = styled.div`
     margin-top: 100px;
   }
 
-  .diagrama {
+  .diagram {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 120px;
@@ -637,7 +691,7 @@ export const Style = styled.div`
     margin-left: 120px;
   }
 
-  .clasament {
+  .podium {
     margin-top: 130px;
     display: grid;
     grid-template-columns: 574px 1fr;
@@ -660,7 +714,7 @@ export const Style = styled.div`
   .gradient {
     background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
     height: 392px;
-    width: 100%;
+    width: 1440px !important;
   }
 
   .email {
@@ -674,7 +728,7 @@ export const Style = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
-  #acum {
+  #now {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -738,7 +792,7 @@ export const Style = styled.div`
 
   .footer {
     background: #0d0d2b;
-    width: 1440px;
+    width: 1440px !important;
     height: 552px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 500px;
@@ -786,16 +840,16 @@ export const Style = styled.div`
     margin-top: 80px;
   }
 
-  .plata {
+  .pay {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  #plata-visa {
+  #pay-visa {
     margin-left: 100px;
   }
 
-  #plata-mastercard {
+  #pay-mastercard {
     margin-left: 27px;
   }
 

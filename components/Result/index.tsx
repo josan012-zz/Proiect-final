@@ -1,13 +1,13 @@
 import Style from "./styled";
-
+import { Button } from "@mui/material";
 const Result = () => {
   return (
     <Style>
       <div className="center">
-        <div className="alb">
-          <div className="afisare">
+        <div className="white">
+          <div className="show">
             <p id="estimate">ESTIMATED 24 HOUR REVENUE:</p>
-            <p id="numar">
+            <p id="number">
               0.00 ETH <span>($0)</span>
             </p>
             <p id="revenue">
@@ -17,7 +17,7 @@ const Result = () => {
           <p id="trade">
             Trade securely and market the high growth cryptocurrencies.
           </p>
-          <div className="monede">
+          <div className="coins">
             <div className="bitcoin">
               <svg
                 id="bit"
@@ -55,10 +55,10 @@ const Result = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <p id="moneda-bitcoin">
+              <p id="coin-bitcoin">
                 Bitcoin <span id="span">BTC</span>
               </p>
-              <h1 id="descriere-bitcoin">
+              <h1 id="description-bitcoin">
                 Digital currency in which a record of transactions is
                 maintained.
               </h1>
@@ -105,7 +105,7 @@ const Result = () => {
             </div>
             <div className="ethereum">
               <svg
-                id="moneda-ethereum"
+                id="coin-ethereum"
                 xmlns="http://www.w3.org/2000/svg"
                 width="80"
                 height="80"
@@ -129,10 +129,10 @@ const Result = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <p id="moneda-bitcoin">
+              <p id="coin-bitcoin">
                 Ethereum <span id="span-ethereum">ETH</span>
               </p>
-              <h1 id="descriere-bitcoin">
+              <h1 id="description-bitcoin">
                 Blockchain technology to create and run decentralized digital
                 applications.
               </h1>
@@ -199,10 +199,10 @@ const Result = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <p id="moneda-bitcoin">
+              <p id="coin-bitcoin">
                 Litecoin <span id="span-litecoin">LTC</span>
               </p>
-              <h1 id="descriere-bitcoin">
+              <h1 id="description-bitcoin">
                 Cryptocurrency that enables instant payments to anyone in the
                 world.
               </h1>

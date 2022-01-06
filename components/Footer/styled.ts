@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { theme } from "../../pages/theme";
 
 export const Style = styled.div`
   .center {
@@ -6,12 +7,37 @@ export const Style = styled.div`
     justify-content: center;
   }
 
-  .albastru {
-    background-color: #0d0d2b;
-    width: 100%;
+  .blue {
+    width: 1440px;
     height: 850px;
   }
 
+  .css-1iwtne7-MuiTypography-root-MuiLink-root {
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-decoration: underline;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-color: rgba(13, 13, 43, 0.4);
+  }
+
+  .css-1iwtne7-MuiTypography-root-MuiLink-root:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+  }
+  .css-4rv9jd .css-1iwtne7-MuiTypography-root-MuiLink-root {
+    margin: 0;
+    color: #ffffff;
+    -webkit-text-decoration: underline;
+    -webkit-text-decoration: underline;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    text-decoration-color: rgb(11 11 64 / 40%);
+  }
+  .css-xe9y41 .css-1iwtne7-MuiTypography-root-MuiLink-root:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+  }
   .logo {
     margin-top: 67px;
     margin-left: 88px;
@@ -35,7 +61,7 @@ export const Style = styled.div`
     color: #ffffff;
   }
 
-  .logare {
+  .log {
     width: 221px;
     display: flex;
     align-self: center;
@@ -43,7 +69,7 @@ export const Style = styled.div`
     margin-top: -40px;
   }
 
-  #registrare {
+  #registration {
     width: 130px;
     height: 52px;
     background: #3671e9;
@@ -59,7 +85,7 @@ export const Style = styled.div`
     color: #ffffff;
   }
 
-  .inregistrare {
+  .register {
     display: flex;
     justify-content: flex-end;
     margin-left: 48px;
@@ -70,17 +96,17 @@ export const Style = styled.div`
     align-items: center;
   }
 
-  .bloc {
+  .block {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .imagine {
+  .photo {
     margin-top: 51px;
     margin-left: -3px;
   }
 
-  .sur {
+  .grey {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 32px;
     width: 365px;
@@ -156,7 +182,7 @@ export const Style = styled.div`
     margin-left: 81px;
   }
 
-  .numere {
+  .numbers {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 151px;
@@ -174,7 +200,7 @@ export const Style = styled.div`
     margin-left: 100px;
   }
 
-  .descriere {
+  .description {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -186,16 +212,16 @@ export const Style = styled.div`
     margin-left: 100px;
   }
 
-  .bloc-pagina2 {
+  .block-page2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  .imagine-pagina2 {
+  .photo-page2 {
     margin-left: 71px;
   }
 
-  #titlu {
+  #title {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -255,9 +281,9 @@ export const Style = styled.div`
     text-align: center;
   }
 
-  .albastru-scurt {
+  .blue-short {
     background-color: #0d0d2b;
-    width: 100%;
+    width: 1440px !important;
     height: 457px;
   }
 
@@ -330,13 +356,12 @@ export const Style = styled.div`
     margin-left: -22px;
   }
 
-  .alb {
+  .white {
     height: 1033px;
-    width: 100%;
-    background-color: #d6d0d0;
+    width: 1440px !important;
   }
 
-  .afisare {
+  .show {
     height: 216px;
     width: 942px;
     background: #fbfcfe;
@@ -358,7 +383,7 @@ export const Style = styled.div`
     margin-left: 48px;
   }
 
-  #numar {
+  #number {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -397,19 +422,19 @@ export const Style = styled.div`
     margin-left: 306px;
   }
 
-  .monede {
+  .coins {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   #bit,
-  #moneda-ethereum,
+  #coin-ethereum,
   #lite {
     margin-left: 187px;
     margin-top: 100px;
   }
 
-  #moneda-bitcoin {
+  #coin-bitcoin {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -433,7 +458,7 @@ export const Style = styled.div`
     margin-top: -42px;
   }
 
-  #descriere-bitcoin {
+  #description-bitcoin {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -506,9 +531,9 @@ export const Style = styled.div`
     margin-top: -42px;
   }
 
-  .violet {
+  .purple {
     background: #2b076e;
-    width: 100%;
+    width: 1440px !important;
     height: 1874px;
   }
 
@@ -542,7 +567,7 @@ export const Style = styled.div`
     margin-left: 120px;
   }
 
-  #statistica {
+  #statistics {
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
@@ -577,7 +602,7 @@ export const Style = styled.div`
     margin-top: 100px;
   }
 
-  .diagrama {
+  .diagram {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 120px;
@@ -637,7 +662,7 @@ export const Style = styled.div`
     margin-left: 120px;
   }
 
-  .clasament {
+  .podium {
     margin-top: 130px;
     display: grid;
     grid-template-columns: 574px 1fr;
@@ -660,7 +685,7 @@ export const Style = styled.div`
   .gradient {
     background: linear-gradient(180deg, #2b076e 0%, #0d0d2b 100%);
     height: 392px;
-    width: 100%;
+    width: 1440px !important;
   }
 
   .email {
@@ -674,7 +699,7 @@ export const Style = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
-  #acum {
+  #now {
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
@@ -737,7 +762,7 @@ export const Style = styled.div`
   }
 
   .footer {
-    background: #0d0d2b;
+    background-color: ${theme.palette.primary.main};
     width: 1440px;
     height: 552px;
     display: grid;
@@ -786,16 +811,16 @@ export const Style = styled.div`
     margin-top: 80px;
   }
 
-  .plata {
+  .pay {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  #plata-visa {
+  #pay-visa {
     margin-left: 100px;
   }
 
-  #plata-mastercard {
+  #pay-mastercard {
     margin-left: 27px;
   }
 
@@ -810,7 +835,7 @@ export const Style = styled.div`
 
   .social {
     height: 60px;
-    width: 400px;
+    width: 290px;
     margin-top: 190px;
     margin-left: 210px;
   }
